@@ -1,2 +1,27 @@
 Script started on Thu Apr 13 23:27:51 2023
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Brookes-MacBook-Air.local/Users/brookeadlesperger-jones/repos/challenges/module-five-challenge/assets[0m[27m[24m[Jbrookeadlesperger-jones@Brookes-MacBook-Air assets % [K[?2004h
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Brookes-MacBook-Air.local/Users/brookeadlesperger-jones/repos/challenges/module-five-challenge/assets[0m[27m[24m[Jbrookeadlesperger-jones@Brookes-MacBook-Air assets % [K[?2004hggit status[?2004l
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m./[m
+	[31m../index.html[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Brookes-MacBook-Air.local/Users/brookeadlesperger-jones/repos/challenges/module-five-challenge/assets[0m[27m[24m[Jbrookeadlesperger-jones@Brookes-MacBook-Air assets % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Brookes-MacBook-Air.local/Users/brookeadlesperger-jones/repos/challenges/module-five-challenge/assets[0m[27m[24m[Jbrookeadlesperger-jones@Brookes-MacBook-Air assets % [K[?2004hggit commit -m "added file f [Koolders"[?2004l
+[main 970e45b] added file folders
+ 2 files changed, 2 insertions(+)
+ create mode 100644 assets/script.js
+ create mode 100644 assets/style.css
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Brookes-MacBook-Air.local/Users/brookeadlesperger-jones/repos/challenges/module-five-challenge/assets[0m[27m[24m[Jbrookeadlesperger-jones@Brookes-MacBook-Air assets % [K[?2004hggit push[?2004l
+Enumerating objects: 6, done.
+Counting objects:  16% (1/6)Counting objects:  33% (2/6)Counting objects:  50% (3/6)Counting objects:  66% (4/6)Counting objects:  83% (5/6)Counting objects: 100% (6/6)Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  20% (1/5)Writing objects:  40% (2/5)Writing objects:  60% (3/5)Writing objects:  80% (4/5)Writing objects: 100% (5/5)Writing objects: 100% (5/5), 603 bytes | 603.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:BAJones22/module-five-challenge.git
+   0f33407..970e45b  main -> main
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Brookes-MacBook-Air.local/Users/brookeadlesperger-jones/repos/challenges/module-five-challenge/assets[0m[27m[24m[Jbrookeadlesperger-jones@Brookes-MacBook-Air assets % [K[?2004hggit p
