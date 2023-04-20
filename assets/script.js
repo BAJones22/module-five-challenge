@@ -1,16 +1,3 @@
-var hours = {
-  9: "",
-  10: "",
-  11: "",
-  12: "",
-  13: "",
-  14: "",
-  15: "",
-  16: "",
-  17: "",
-};
-
-
 $(function () {
 var currentHour = dayjs().format('HH');
 $("#currentDay").text(dayjs().format('dddd, MMMM D, YYYY'));
@@ -34,7 +21,20 @@ setInterval(function() {
   updateColor();
 }, 60000);
 
-    // colorChange();
+function textInput() {
+  $('.saveBtn').on('click', function() {
+    var key = $(this).parent().attr('id');
+    var value = $(this).siblings('.description').val();
+    localStorage.setItem(key, value);
+  });
+}
+$('.time-block').each(function() {
+  var key = $(this).attr('id');
+  var value = localStorage.getItem(key);
+  $(this).children('.description').val(value);
+});
+
+    textInput();
     updateColor();
    }  
 );
