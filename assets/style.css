@@ -1,27 +1,74 @@
-Script started on Thu Apr 13 23:27:51 2023
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Brookes-MacBook-Air.local/Users/brookeadlesperger-jones/repos/challenges/module-five-challenge/assets[0m[27m[24m[Jbrookeadlesperger-jones@Brookes-MacBook-Air assets % [K[?2004hggit status[?2004l
-On branch main
-Your branch is up to date with 'origin/main'.
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
 
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	[31m./[m
-	[31m../index.html[m
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
 
-nothing added to commit but untracked files present (use "git add" to track)
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Brookes-MacBook-Air.local/Users/brookeadlesperger-jones/repos/challenges/module-five-challenge/assets[0m[27m[24m[Jbrookeadlesperger-jones@Brookes-MacBook-Air assets % [K[?2004hggit add .[?2004l
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Brookes-MacBook-Air.local/Users/brookeadlesperger-jones/repos/challenges/module-five-challenge/assets[0m[27m[24m[Jbrookeadlesperger-jones@Brookes-MacBook-Air assets % [K[?2004hggit commit -m "added file f [Koolders"[?2004l
-[main 970e45b] added file folders
- 2 files changed, 2 insertions(+)
- create mode 100644 assets/script.js
- create mode 100644 assets/style.css
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Brookes-MacBook-Air.local/Users/brookeadlesperger-jones/repos/challenges/module-five-challenge/assets[0m[27m[24m[Jbrookeadlesperger-jones@Brookes-MacBook-Air assets % [K[?2004hggit push[?2004l
-Enumerating objects: 6, done.
-Counting objects:  16% (1/6)Counting objects:  33% (2/6)Counting objects:  50% (3/6)Counting objects:  66% (4/6)Counting objects:  83% (5/6)Counting objects: 100% (6/6)Counting objects: 100% (6/6), done.
-Delta compression using up to 4 threads
-Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
-Writing objects:  20% (1/5)Writing objects:  40% (2/5)Writing objects:  60% (3/5)Writing objects:  80% (4/5)Writing objects: 100% (5/5)Writing objects: 100% (5/5), 603 bytes | 603.00 KiB/s, done.
-Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
-To github.com:BAJones22/module-five-challenge.git
-   0f33407..970e45b  main -> main
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Brookes-MacBook-Air.local/Users/brookeadlesperger-jones/repos/challenges/module-five-challenge/assets[0m[27m[24m[Jbrookeadlesperger-jones@Brookes-MacBook-Air assets % [K[?2004hggit p
+header {
+  text-align: center;
+  border-bottom: 5px solid black;
+}
+
+#date {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.854);
+}
+
+#lsMessage span {
+  color: red;
+  padding: 3px;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  border-radius: 15px;
+}
+
+.row {
+  border-top: 1px solid white;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: #d3d3d3;
+  color: white;
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
